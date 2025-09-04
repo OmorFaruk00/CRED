@@ -11,6 +11,9 @@
       <x-service />
       <!-- /Featured Services Section -->
 
+
+      <x-about />
+
       <x-news-event />
       <!-- /News & Events Section -->
 
@@ -112,6 +115,8 @@
         </div>
 
       </section><!-- /Services Section -->
+
+      <x-publication />
 
       <!-- Call To Action Section -->
       <section id="call-to-action"

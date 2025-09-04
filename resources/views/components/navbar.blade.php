@@ -38,7 +38,6 @@
                   </li>
                   <li><a href="#">Working Papers</a></li>
                   <li><a href="#">Policy Briefs</a></li>
-                  <li><a href="#">Dropdown 4</a></li>
               </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Events & Activities</span>

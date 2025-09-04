@@ -4,7 +4,8 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>CRED</title>
+  <title>CRED | @yield('title')</title>
+
     <meta name="description" content>
     <meta name="keywords" content>
 
@@ -31,8 +32,11 @@
     <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="{{ asset('assets/css/main.css')}}" rel="stylesheet">
+    {{-- <link href="{{ asset('assets/css/main.css')}}" rel="stylesheet"> --}}
+    <link href="{{ asset('assets/css/main.css') }}?v={{ time() }}" rel="stylesheet">
 
+
+  @stack('styles')
   </head>
 
   <body class="index-page">
@@ -144,6 +148,7 @@
     <!-- Preloader -->
     <div id="preloader"></div>
 
+
     <!-- Vendor JS Files -->
     <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{ asset('assets/vendor/php-email-form/validate.js')}}"></script>
@@ -153,8 +158,10 @@
     <script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
     <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
 
+
     <!-- Main JS File -->
     <script src="{{ asset('assets/js/main.js')}}"></script>
+    @stack('scripts')
 
   </body>
 

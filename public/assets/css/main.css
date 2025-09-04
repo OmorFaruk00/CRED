@@ -2109,9 +2109,31 @@ section,
         padding: 25px 10px 10px;
         border-radius: 30px;
     }
+}
 
 
+/* Card */
 
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-btn {
+  background-color: #5cb874;
+  color: white;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2px 20px;
 
-
+}
+.card-btn:hover {
+  color: #000 !important;
+  text-decoration: none;
+}
+.card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none
 }

@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\HomeControler;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeControler::class, 'index'])->name('home');
-Route::get('/about', [HomeControler::class, 'about'])->name('about');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::prefix('about')->name('about.')->group(function () {
+    Route::get('/director', [HomeController::class, 'director'])->name('director');
+    Route::get('/vision-mission', [HomeController::class, 'visionMission'])->name('vision');
+    Route::get('/objectives', [HomeController::class, 'objectives'])->name('objectives');
+    Route::get('/governance-structure', [HomeController::class, 'governanceStructure'])->name('governanceStructure');
+    Route::get('/advisory-board', [HomeController::class, 'advisoryBoard'])->name('advisoryBoard');
+    Route::get('/team', [HomeController::class, 'team'])->name('team');
+
+});

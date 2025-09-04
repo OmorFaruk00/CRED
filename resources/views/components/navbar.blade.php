@@ -3,12 +3,12 @@
           <li class="dropdown"><a href="#"><span>About Us</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                  <li><a href="#">Message from the Director</a></li>
-                  <li><a href="#">Vision & Mission</a></li>
-                  <li><a href="#">Objectives</a></li>
-                  <li><a href="#">Governance & Structure</a></li>
-                  <li><a href="#">Advisory Board</a></li>
-                  <li><a href="#">CRED Team</a></li>
+                  <li><a href="{{ route('about.director') }}">Message from the Director</a></li>
+                  <li><a href="{{ route('about.vision') }}">Vision & Mission</a></li>
+                  <li><a href="{{ route('about.objectives') }}">Objectives</a></li>
+                  <li><a href="{{ route('about.governanceStructure') }}">Governance & Structure</a></li>
+                  <li><a href="{{ route('about.advisoryBoard') }}">Advisory Board</a></li>
+                  <li><a href="{{ route('about.team') }}">CRED Team</a></li>
               </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Research</span>
@@ -53,7 +53,7 @@
                   <li><a href="#">Research Week / Research Fair</a></li>
               </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Grants & Funding</span>
+          {{-- <li class="dropdown"><a href="#"><span>Grants & Funding</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">Internal Research Grants</a></li>
@@ -62,8 +62,8 @@
                   <li><a href="#">Grant Application Forms</a></li>
                   <li><a href="#">Reporting & Compliance</a></li>
               </ul>
-          </li>
-              <li class="dropdown"><a href="#"><span>For Researchers</span>
+          </li> --}}
+              {{-- <li class="dropdown"><a href="#"><span>For Researchers</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">Research Ethics Policy</a></li>
@@ -73,8 +73,8 @@
                   <li><a href="#">Researcher Training Materials</a></li>
                   <li><a href="#">FAQ</a></li>
               </ul>
-          </li>
-              <li class="dropdown"><a href="#"><span>Student Corner</span>
+          </li> --}}
+              {{-- <li class="dropdown"><a href="#"><span>Student Corner</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">Undergraduate Research Opportunities</a></li>
@@ -83,8 +83,8 @@
                   <li><a href="#">Research Clubs / Circles</a></li>
                   <li><a href="#">Best Thesis Awards</a></li>
               </ul>
-          </li>
-                <li class="dropdown"><a href="#"><span>Collaboration</span>
+          </li> --}}
+                {{-- <li class="dropdown"><a href="#"><span>Collaboration</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">National Collaborations</a></li>
@@ -93,8 +93,8 @@
                   <li><a href="#">Visiting Scholars Program</a></li>
                   <li><a href="#">Joint Research Initiatives</a></li>
               </ul>
-          </li>
-             <li class="dropdown"><a href="#"><span>News & Notices</span>
+          </li> --}}
+             {{-- <li class="dropdown"><a href="#"><span>News & Notices</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">News</a></li>
@@ -103,7 +103,7 @@
                   <li><a href="#">Call for Papers</a></li>
                   <li><a href="#">Career Opportunities</a></li>
               </ul>
-          </li>
+          </li> --}}
 
           {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                       class="bi bi-chevron-down toggle-dropdown"></i></a>

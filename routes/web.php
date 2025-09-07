@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ResearchController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,5 +23,11 @@ Route::prefix('about')->name('about.')->group(function () {
     Route::get('/governance-structure', [HomeController::class, 'governanceStructure'])->name('governanceStructure');
     Route::get('/advisory-board', [HomeController::class, 'advisoryBoard'])->name('advisoryBoard');
     Route::get('/team', [HomeController::class, 'team'])->name('team');
+
+});
+Route::prefix('research')->name('research.')->group(function () {
+    Route::get('/ongoing-research-project', [ResearchController::class, 'ongoingResearchProject'])->name('ongoing-research-project');
+    Route::get('/completed-research', [ResearchController::class, 'completedResearch'])->name('completed-research');
+
 
 });

@@ -21,7 +21,7 @@
 
 
 
-      <x-upcoming-events />
+      {{-- <x-upcoming-events /> --}}
 
 
 

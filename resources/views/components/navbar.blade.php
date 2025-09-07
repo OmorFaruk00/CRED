@@ -1,58 +1,69 @@
-  <nav id="navmenu" class="navmenu">
-      <ul>
-          <li class="dropdown"><a href="#"><span>About Us</span>
-                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                  <li><a href="{{ route('about.director') }}">Message from the Director</a></li>
-                  <li><a href="{{ route('about.vision') }}">Vision & Mission</a></li>
-                  <li><a href="{{ route('about.objectives') }}">Objectives</a></li>
-                  <li><a href="{{ route('about.governanceStructure') }}">Governance & Structure</a></li>
-                  <li><a href="{{ route('about.advisoryBoard') }}">Advisory Board</a></li>
-                  <li><a href="{{ route('about.team') }}">CRED Team</a></li>
-              </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Research</span>
-                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                  <li><a href="#">Ongoing Research Projects</a></li>
-                  <li><a href="#">Call for Paper</a></li>
-                  <li><a href="#">Completed Research</a></li>
-                  <li><a href="#">Priority Research Areas</a></li>
-                  <li><a href="#">Research Guidelines</a></li>
-                  <li><a href="#">Research Proposal Format</a></li>
-                  <li><a href="#">Research Funding Support</a></li>
-              </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Publication</span> <i
-                      class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                  <li class="dropdown"><a href="#"><span>CRED Journal(s)</span> <i
-                              class="bi bi-chevron-down toggle-dropdown"></i></a>
-                      <ul>
-                          <li><a href="#">Current Issue</a></li>
-                          <li><a href="#">Archives</a></li>
-                          <li><a href="#">Conference Proceedings</a></li>
-                          <li><a href="#">DOI & Indexing Info</a></li>
 
-                      </ul>
-                  </li>
-                  <li><a href="#">Working Papers</a></li>
-                  <li><a href="#">Policy Briefs</a></li>
-              </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Events & Activities</span>
-                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                  <li><a href="#">Research Seminars</a></li>
-                  <li><a href="#">Workshops & Trainings</a></li>
-                  <li><a href="#">Conferences (National & International)</a></li>
-                  <li><a href="#">Symposiums</a></li>
-                  <li><a href="#">Research Guidelines</a></li>
-                  <li><a href="#">Student Research Showcases</a></li>
-                  <li><a href="#">Research Week / Research Fair</a></li>
-              </ul>
-          </li>
-          {{-- <li class="dropdown"><a href="#"><span>Grants & Funding</span>
+
+    <div class="branding d-flex align-items-cente">
+
+            <div class="container position-relative d-flex align-items-center justify-content-between">
+                <a href="index.html" class="logo d-flex align-items-center">
+                    <!-- Uncomment the line below if you also wish to use an image logo -->
+                    <!-- <img src="assets/img/logo.png" alt=""> -->
+                    <h1 class="sitename">CRED</h1>
+                </a>
+
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li class="dropdown"><a href="#"><span>About Us</span>
+                                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="{{ route('about.director') }}">Message from the Director</a></li>
+                                <li><a href="{{ route('about.vision') }}">Vision & Mission</a></li>
+                                <li><a href="{{ route('about.objectives') }}">Objectives</a></li>
+                                <li><a href="{{ route('about.governanceStructure') }}">Governance & Structure</a></li>
+                                <li><a href="{{ route('about.advisoryBoard') }}">Advisory Board</a></li>
+                                <li><a href="{{ route('about.team') }}">CRED Team</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#"><span>Research</span>
+                                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="{{ route('research.ongoing-research-project') }}">Ongoing Research Projects</a></li>
+                                <li><a href="#">Call for Paper</a></li>
+                                <li><a href="{{ route('research.completed-research') }}">Completed Research</a></li>
+                                <li><a href="#">Priority Research Areas</a></li>
+                                <li><a href="#">Research Guidelines</a></li>
+                                <li><a href="#">Research Proposal Format</a></li>
+                                <li><a href="#">Research Funding Support</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#"><span>Publication</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li class="dropdown"><a href="#"><span>CRED Journal(s)</span> <i
+                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                    <ul>
+                                        <li><a href="#">Current Issue</a></li>
+                                        <li><a href="#">Archives</a></li>
+                                        <li><a href="#">Conference Proceedings</a></li>
+                                        <li><a href="#">DOI & Indexing Info</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="#">Working Papers</a></li>
+                                <li><a href="#">Policy Briefs</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#"><span>Events & Activities</span>
+                                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#">Research Seminars</a></li>
+                                <li><a href="#">Workshops & Trainings</a></li>
+                                <li><a href="#">Conferences (National & International)</a></li>
+                                <li><a href="#">Symposiums</a></li>
+                                <li><a href="#">Research Guidelines</a></li>
+                                <li><a href="#">Student Research Showcases</a></li>
+                                <li><a href="#">Research Week / Research Fair</a></li>
+                            </ul>
+                        </li>
+                        {{-- <li class="dropdown"><a href="#"><span>Grants & Funding</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">Internal Research Grants</a></li>
@@ -62,7 +73,7 @@
                   <li><a href="#">Reporting & Compliance</a></li>
               </ul>
           </li> --}}
-              {{-- <li class="dropdown"><a href="#"><span>For Researchers</span>
+                        {{-- <li class="dropdown"><a href="#"><span>For Researchers</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">Research Ethics Policy</a></li>
@@ -73,7 +84,7 @@
                   <li><a href="#">FAQ</a></li>
               </ul>
           </li> --}}
-              {{-- <li class="dropdown"><a href="#"><span>Student Corner</span>
+                        {{-- <li class="dropdown"><a href="#"><span>Student Corner</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">Undergraduate Research Opportunities</a></li>
@@ -83,7 +94,7 @@
                   <li><a href="#">Best Thesis Awards</a></li>
               </ul>
           </li> --}}
-                {{-- <li class="dropdown"><a href="#"><span>Collaboration</span>
+                        {{-- <li class="dropdown"><a href="#"><span>Collaboration</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">National Collaborations</a></li>
@@ -93,7 +104,7 @@
                   <li><a href="#">Joint Research Initiatives</a></li>
               </ul>
           </li> --}}
-             {{-- <li class="dropdown"><a href="#"><span>News & Notices</span>
+                        {{-- <li class="dropdown"><a href="#"><span>News & Notices</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">News</a></li>
@@ -104,7 +115,7 @@
               </ul>
           </li> --}}
 
-          {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i
+                        {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                       class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#">Dropdown 1</a></li>
@@ -123,6 +134,11 @@
                   <li><a href="#">Dropdown 4</a></li>
               </ul>
           </li> --}}
-      </ul>
-      <i class="mobile-nav-toggle bi bi-list"></i>
-  </nav>
+                    </ul>
+                    <i class="mobile-nav-toggle bi bi-list"></i>
+                </nav>
+
+
+            </div>
+
+        </div>

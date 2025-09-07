@@ -7,10 +7,12 @@
     <x-slider />
      <!-- /Hero Section -->
 
+
+
       <!-- Featured Services Section -->
       <x-service />
       <!-- /Featured Services Section -->
-
+       <x-upcoming-events />
 
       <x-about />
 

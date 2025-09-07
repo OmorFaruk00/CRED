@@ -3,7 +3,7 @@
           <h2>Recent Publications</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
             consectetur velit</p>
-        </div><!-- End Section Title -->
+        </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper publication">
             <div class="swiper-wrapper align-items-center">
@@ -62,12 +62,12 @@
                     <div class="card h-100">
                         <img src="{{ asset('/assets/img/card.jpg') }}" class="card-img-top" alt="Publication">
                         <div class="card-body">
-                            <h5 class="card-title text-dark text-truncate-2">
+                            <h5 class=" text-dark text-truncate-2">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam molestiae
                                 necessitatibus accusantium fugiat incidunt libero ex, tempore voluptates excepturi
                                 dolorem!
                             </h5>
-                            <p class="card-text text-muted text-truncate-2">
+                            <p class=" text-muted text-truncate-2">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore incidunt alias
                                 molestiae modi aperiam architecto eum laudantium soluta? Totam, repellat?
                             </p>

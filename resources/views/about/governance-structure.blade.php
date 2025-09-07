@@ -21,7 +21,7 @@
 
 
 
-      <x-publication />
+      <x-upcoming-events />
 
 
 

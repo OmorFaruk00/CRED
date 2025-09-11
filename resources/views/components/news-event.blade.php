@@ -10,7 +10,7 @@
                 </div>
                 <div class="event-content">
                     <p class="event-title mb-1">Research Methods Workshop</p>
-                    <p class="mb-0 text-muted small">A one-day intensive workshop on research design, tools, and data
+                    <p class="mb-0 text-muted small event-desc">A one-day intensive workshop on research design, tools, and data
                         analysis.</p>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="event-content">
                     <p class="event-title mb-1">Research Methods Workshop</p>
-                    <p class="mb-0 text-muted small">A one-day intensive workshop on research design, tools, and
+                    <p class="mb-0 text-muted small event-desc">A one-day intensive workshop on research design, tools, and
                         data analysis.</p>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="event-content">
                     <p class="event-title mb-1">Research Methods Workshop</p>
-                    <p class="mb-0 text-muted small">A one-day intensive workshop on research design, tools, and
+                    <p class="mb-0 text-muted small event-desc">A one-day intensive workshop on research design, tools, and
                         data analysis.</p>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="event-content">
                     <p class="event-title mb-1">Research Methods Workshop</p>
-                    <p class="mb-0 text-muted small">A one-day intensive workshop on research design, tools, and
+                    <p class="mb-0 text-muted small event-desc">A one-day intensive workshop on research design, tools, and
                         data analysis.</p>
                 </div>
             </div>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="event-content">
                     <p class="event-title mb-1">Research Methods Workshop</p>
-                    <p class="mb-0 text-muted small">A one-day intensive workshop on research design, tools, and
+                    <p class="mb-0 text-muted small event-desc">A one-day intensive workshop on research design, tools, and
                         data analysis.</p>
                 </div>
             </div>

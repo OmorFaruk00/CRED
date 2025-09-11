@@ -4,7 +4,7 @@
     <main class="main">
 
       <!-- Hero Section -->
-    <x-slider />
+       <x-slider />
      <!-- /Hero Section -->
 
 

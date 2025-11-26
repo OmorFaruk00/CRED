@@ -1,5 +1,24 @@
 @extends('layouts.master')
 @section('content')
+    <style>
+        .contact-block p
+        {
+            line-height: 1 !important;
+            color: #000 !important;
+            font-size: 14px !important;
+            padding: 0px 20px;
+
+        }
+          
+        .contact-block h4 {
+            line-height: 1 !important;
+            color: #000 !important;
+            font-size: 18px;
+            padding: 0px 20px;
+            font-weight: 600
+
+        }
+    </style>
     <main class="main">
         <div class="page-title" data-aos="fade">
             <nav class="breadcrumbs">
@@ -15,12 +34,14 @@
         <section id="starter-section" class="starter-section section">
             <div class="container section-title" data-aos="fade-up">
                 <h2>Message from the Director </h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h4>Center for Research, Excellence and Development (CRED)
+                </h4>
+                <h5> Dhaka International University</h5>
             </div>
         </section>
 
         <div class="container">
-            <div class="email-signature mb-4" data-aos="fade-up">
+            {{-- <div class="email-signature mb-4" data-aos="fade-up">
                 <div class="signature-details">
                     <div class="signature-icon">
                         <img src="https://cdn.yahoobaba.net/email-signature/demo75/images/img-1.jpg" alt="">
@@ -43,9 +64,35 @@
                     <li>Address : #1234, Lorem Ipsum</li>
                 </ul>
 
-            </div>
+            </div> --}}
             <div class="email-signature mb-5" data-aos="fade-up">
-                <p class="message">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis cumque et, commodi odio earum quo reprehenderit dolore quam eos at blanditiis accusamus dignissimos dolor impedit possimus alias quis expedita quaerat laudantium iste perferendis id deserunt? A aut possimus, nesciunt ex repellat expedita dolorum nostrum. Impedit nostrum possimus rerum, fuga doloremque, autem ipsum, consequuntur minima nesciunt recusandae exercitationem illum dicta reiciendis tempore eius ullam corrupti eum quasi libero adipisci? Ut nihil odio tenetur earum id, officiis veritatis. Rem pariatur totam voluptas quidem, minima neque dolore? Amet quia ullam eos, praesentium id totam provident asperiores, molestiae repellendus quasi doloribus officiis mollitia nesciunt. Explicabo ratione vel adipisci ipsam ut modi vitae placeat atque odio qui. Praesentium voluptatem a sunt, repellendus nisi magnam, suscipit veritatis minus minima, error nobis neque nihil dolore eveniet amet iure quo quibusdam ea reiciendis sit. Architecto ipsam laborum et unde laudantium ea illo quam. Nisi, facere! Provident fugiat, maxime labore ex perferendis excepturi magnam culpa ipsam itaque, illum,</p>
+                <p class="message">At the Center for Research, Excellence and Development (CRED), we believe that research
+                    is not just the pursuit of knowledge—it is the foundation for innovation, progress, and societal
+                    transformation. Our mission is to nurture a dynamic research culture within Dhaka International
+                    University that empowers both students and faculty to become pioneers of impactful discovery and thought
+                    leadership.</p>
+                <p class="message">Guided by our vision to position DIU as a leading institution recognized for vibrant and
+                    interdisciplinary research, CRED is committed to creating an environment where ideas thrive,
+                    collaborations flourish, and meaningful contributions are made to both national and global challenges.
+                    Through our initiatives, we aim to provide comprehensive support—training, mentorship, and resources—to
+                    enhance research capacity and quality across all disciplines.</p>
+                <p class="message">We encourage our researchers to think beyond traditional boundaries, engage in
+                    collaborative and cross-disciplinary projects, and publish their findings in reputable academic
+                    platforms. At the heart of our work lies a shared goal: to translate academic excellence into real-world
+                    solutions that contribute to sustainable development and societal well-being.</p>
+                <p class="message">CRED stands as a catalyst for excellence, innovation, and knowledge creation. Together,
+                    we are shaping a future where Dhaka International University becomes a beacon of research distinction
+                    and a driving force in global academic advancement.</p>
+                <p class="message"></p>
+
+                <div class="contact-block">
+                    <h4>Dr. Md. Shariful Alam</h4>
+                    <h4>Director</h4>
+                    <p>Center for Research, Excellence and Development (CRED)</p>
+                    <p>Dhaka International University</p>
+                    <p>Phone: 01781220000</p>
+                    <p>Email: shariful1963@gmail.com</p>
+                </div>
             </div>
         </div>
 

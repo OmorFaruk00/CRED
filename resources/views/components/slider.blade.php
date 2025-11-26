@@ -5,7 +5,7 @@
           data-bs-ride="carousel" data-bs-interval="4000">
 
           <div class="carousel-item active">
-            <img src="{{ asset('/assets/img/hero-carousel/slider.png') }}"
+            <img src="{{ asset('/assets/img/hero-carousel/slider3.png') }}"
               class="d-block w-100" alt="Hero Image">
 
             <div class="carousel-container text-center">
@@ -22,7 +22,7 @@
             </div>
           </div>
              <div class="carousel-item active">
-            <img src="assets/img/hero-carousel/hero-carousel-1.jpg"
+            <img src="assets/img/hero-carousel/slider2.jpg"
               class="d-block w-100" alt="Hero Image">
 
             <div class="carousel-container text-center">
@@ -39,7 +39,7 @@
             </div>
           </div>
              <div class="carousel-item active">
-            <img src="assets/img/hero-carousel/hero-carousel-1.jpg"
+            <img src="assets/img/hero-carousel/slider1.png"
               class="d-block w-100" alt="Hero Image">
 
             <div class="carousel-container text-center">

@@ -898,7 +898,7 @@ section,
     min-height: 70vh;
     padding: 0;
     margin: 0;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     position: relative;
 }
 
@@ -923,10 +923,15 @@ section,
 
 .hero .carousel-item:before {
     content: "";
-    background: color-mix(in srgb, var(--background-color), transparent 30%);
     position: absolute;
     inset: 0;
     z-index: 2;
+
+    background: linear-gradient(
+        to right, 
+        rgba(0, 48, 108, 0.7), /* left side dark blue */
+        rgba(0, 48, 108, 0.0)  /* right side transparent */
+    );
 }
 
 .hero .carousel-container {

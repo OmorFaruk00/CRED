@@ -6,9 +6,7 @@
                     <a href="index.html" class="logo d-flex align-items-center">
                         <span class="sitename">CRED</span>
                     </a>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-                        nada terra videa magna derita valies darta donna mare fermentum
-                        iaculis eu non diam phasellus.</p>
+                    <p>We inspire and support innovative research, provide capacity-building opportunities, and connect DIU with national and international academic networks to drive meaningful development.</p>
                     <div class="social-links d-flex mt-4">
                         <a href><i class="bi bi-twitter-x"></i></a>
                         <a href><i class="bi bi-facebook"></i></a>

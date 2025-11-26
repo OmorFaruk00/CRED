@@ -174,7 +174,6 @@
         <section id="starter-section" class="starter-section section">
             <div class="container section-title" data-aos="fade-up">
                 <h2>Vision Mission Section</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
         </section>
 
@@ -190,21 +189,46 @@
                         </div>
                         <h3 class="title">Vision</h3>
                         <p class="description">
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur culpa ut autem eligendi ipsa deserunt aspernatur voluptas cum dolore iusto atque praesentium optio architecto, vel sint tenetur fugit, sequi recusandae quidem repudiandae unde perspiciatis ipsum. Dicta, numquam voluptate similique, suscipit sapiente ipsam a quam molestias modi, et nam ratione! Cupiditate.
+                         To establish Dhaka International University as a leading institution renowned for fostering a vibrant research culture that empowers both students and faculty to contribute to global knowledge through innovative, interdisciplinary, and impactful research..
                         </p>
                     </a>
                 </div>
-                <div class="vision">
-                    <a href="#" class="vision-content">
-                        <div class="vision-icon">
-                            <i class="fa-solid fa-rocket"></i>
-                        </div>
-                        <h3 class="title">Mission</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore expedita minima eius rerum aliquid animi odio quod quia tempora perferendis numquam ad reprehenderit, deleniti sunt labore saepe at quam veritatis eaque vel impedit corrupti, nisi perspiciatis maxime? Explicabo ab neque officia cupiditate tenetur natus, doloremque illo, vel eligendi beatae architecto.
-                        </p>
-                    </a>
-                </div>
+         <div class="vision">
+    <a href="#" class="vision-content">
+        <div class="vision-icon">
+            <i class="fa-solid fa-rocket"></i>
+        </div>
+
+        <h3 class="title">Mission</h3>
+        <p class="description">
+            <strong>To cultivate a dynamic research ecosystem at DIU by:</strong>
+        </p>
+
+        <ul class="mission-list">
+            <li>
+                Empowering Students and Faculty:
+                <span>Providing resources, training, and mentorship to enhance research capabilities.</span>
+            </li>
+
+            <li>
+                Promoting Collaborative Research:
+                <span>Encouraging interdisciplinary and international research partnerships.</span>
+            </li>
+
+            <li>
+                Ensuring Quality Publications:
+                <span>Supporting high-quality research publications in reputable journals and conferences.</span>
+            </li>
+
+            <li>
+                Contributing to Societal Development:
+                <span>Aligning research with national & global challenges to drive meaningful impact.</span>
+            </li>
+        </ul>
+
+    </a>
+</div>
+
 
 
             </div>
